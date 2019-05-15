@@ -45,7 +45,7 @@ class GrailsMelodyPluginGrailsPlugin extends Plugin {
     def scm = [url: 'https://github.com/javamelody/grails-melody-plugin.git']
 
     void doWithDynamicMethods() {
-        new MelodyInterceptorEnhancer().enhance(getGrailsApplication())
+        //new MelodyInterceptorEnhancer().enhance(getGrailsApplication())
     }
 
     void doWithApplicationContext() {
